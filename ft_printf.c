@@ -6,12 +6,12 @@
 /*   By: rsenelle <rsenelle@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/21 21:34:49 by rsenelle          #+#    #+#             */
-/*   Updated: 2021/10/23 14:43:31 by rsenelle         ###   ########.fr       */
+/*   Updated: 2021/10/26 15:01:54 by rsenelle         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
-#include <limits.h>
+
 int	ft_printf(const char *s, ...)
 {
 	va_list	ap;
